@@ -1,0 +1,39 @@
+---------------------------------------------------------------------------------
+			Computer Technologies In Telecommunications
+			Homework n°1 : 
+---------------------------------------------------------------------------------
+
+			By : William Baudrand Chaudeyrac
+
+---------------------------------------------------------------------------------
+
+	Goal : collect data form a website, clean it and store it into a file
+		
+---------------------------------------------------------------------------------
+
+	my code : do these 3 steps one by one
+	
+	First step : collecting the data from a website, using BeautifulSoup,
+		and puting it into list of strings.
+	
+	
+	Second step : cleaning the data mo make it lighter and easier to read
+		using the replace function.
+	
+	
+	Last step : Storing the data into a file.  in this case,
+		 i used a .csv file.
+
+	   
+
+---------------------------------------------------------------------------------
+
+	more infos :
+		tools used :
+			spyder3 with Anaconda
+		libraries used :
+			bs4
+			requests
+			csv
+
+---------------------------------------------------------------------------------
