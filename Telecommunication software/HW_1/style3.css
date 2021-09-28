@@ -1,26 +1,32 @@
 
 body {
   	text-align: center;
-  	color: purple;
-  	background-color: transparent;
-	background-image: url('D:/travail/Aéro 2/HTML/dossierlol/howl.gif');
+  	color: whitesmoke;
+  	background-color: teal;
 }
 table{
 margin:auto;
 }
 td,th{
-	border: 2px purple solid;
+	border: 2px snow solid;
 	text-align: center;
-	color: purple;
+	color: aqua;
 
 }
 .photocentrer {
 	float: center;
+	max-width: 25%;
 }
 
-h6 {
-	text-align: center;
-  	color: purple;
-  	font-size:120px;
+h1{
+	color: snow;
+	text-align: :center;
+	font-weight: bold;
+	font-size:xx-large;
+	border: 1px honeydew solid;
+}
 
+h2{
+	color: mintcream;
+	text-decoration: underline;
 }
