@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<titre>HW1_TelecomSoftware</titre>
 		<link rel="stylesheet" href="style3.css">
+		<link rel="icon" type="image/png" href="RTU.png">
 	</head>
 	<body>
 		<h1>First Homework</h1>
@@ -15,7 +16,6 @@
 	    <script>
         const url = 'https://4v9r83qfo4.execute-api.eu-central-1.amazonaws.com/dev';
        
-  
         async function Collectdata() {
             const response = await fetch(url);
             const data = await response.json();
@@ -40,7 +40,6 @@
             document.getElementById('DATA31').textContent= someData[3][1];
         }
         Collectdata();
-
     </script>
     <section>
     <h3>
@@ -57,13 +56,11 @@
     <table>
         <caption> SomeData : </caption>
         <thead>
-            <th>first collumn</th>
-            <th>second collumn</th>
-        </thead>
-        
+            <th>first column</th>
+            <th>second column</th>
+        </thead>  
         <tbody>
             <tr>
-
                 <td><span id="DATA00"></span></td>
                 <td><span id="DATA01"></span></td>
             </tr>
@@ -81,10 +78,8 @@
                 <td><span id="DATA31"></span></td>
             </tr>
         </tbody>
-
     </table>
 	</section>
     <img src="RTU.png" title="RTU's Logo" class="photocentrer">
-
 </body>
 </html>

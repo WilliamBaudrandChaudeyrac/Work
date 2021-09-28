@@ -2,7 +2,7 @@
 body {
   	text-align: center;
   	color: whitesmoke;
-  	background-color: teal;
+  	background-color: rgb(0,80,80);
 }
 table{
 margin:auto;
@@ -15,7 +15,7 @@ td,th{
 }
 .photocentrer {
 	float: center;
-	max-width: 25%;
+	max-width: 15%;
 }
 
 h1{
